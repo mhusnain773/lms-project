@@ -32,7 +32,7 @@ export const CategoryItem = ({
         url: pathname,
         query: {
           title: currentTitle,
-          CategoryId: isSelected ? null : value,
+          categoryId: isSelected ? null : value,
         },
       },
       { skipNull: true, skipEmptyString: true }
